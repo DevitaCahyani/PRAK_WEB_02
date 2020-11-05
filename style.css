@@ -1,0 +1,89 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.onehead{
+    width: 80%;
+    margin: 0 auto;
+}
+.onehead:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+header img{
+    width: 65px;
+    height: 65px;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 1px;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+header h1{
+    float: left;
+    padding: 15px 0;
+    color: #398BAD;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: #398BAD;
+    color: #ffffff;
+}
+.banner h2{
+    color: #398BAD;
+    display: inline-block;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #398BAD;
+    margin-left: 30%;
+}
+section{
+    padding: 25px 0;
+}
+section h3{
+    text-align: left;
+    padding: 10px 0;
+    color: #398BAD;
+    margin-bottom: 25px;
+}
+.about p{
+    color: #666666;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: left;
+}
+.about, .order{
+    padding-bottom: 25px;
+}
+.order, .promo{
+    padding-bottom: 25px;
+}
+.onehead .table1 {
+    font-family: sans-serif;
+    color: #232323;
+    border-collapse: collapse;
+}
+.onehead .table1, th, td {
+    border: 1px solid;
+    color: #398BAD;
+    padding: 8px 20px;
+}
+.promo, .testimoni{
+    padding-bottom: 25px;
+}
+.testimoni, .cabang{
+    padding-bottom: 25px;
+}
+.onehead ul {
+    color: #398BAD;
+    padding: 8px 20px;
+}
